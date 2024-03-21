@@ -1,0 +1,24 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Slackside+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Credit Card Welcome Offer Tracker</h1>
+        <form id="welcomeOfferForm">
+        <label for="currentSpend">Current Spend:</label>
+        <input type="number" id="currentSpend" name="currentSpend" required>
+        <label for="totalSpend">Total Spend Required:</label>
+        <input type="number" id="totalSpend" name="totalSpend" required>
+        <label for="deadline">Deadline Date:</label>
+        <input type="date" id="deadline" name="deadline"required>
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="result"></div>
+  </div>
+        <script src="index.js">
+        </script>
+    </body>
+</html>
